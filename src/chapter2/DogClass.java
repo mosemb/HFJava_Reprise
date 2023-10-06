@@ -8,9 +8,26 @@ public class DogClass {
 	String breed;
 	
 	void bark() {
+		if(size>60) {
+			
+			System.out.println("Woof Woof");
+		}else if(size >14) {
+			
+		   System.out.println("Ruff Ruff");	
+		}else {
+			
+			System.out.print("Yip Yip");
+		}
 		
-		System.out.print("Ruff Ruff");
-		
+	}
+	
+	void eat() {
+		System.out.println("Dog is eating some meat");
+	}
+	
+	
+	void chaseCat() {
+		System.out.println("Do is chasing the cat");
 	}
 
 }
