@@ -25,8 +25,9 @@ public class DogTestClass {
 		dogs[1].name = "Dre";
 		
 		dogs[0].size = 70;
-		dogs[1].size = 6;
 		dogs[2].size = 14;
+		dogs[1].size = 6;
+		
 		
 		// Last Dogs name
 		// dogs[2]
